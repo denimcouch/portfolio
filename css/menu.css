@@ -140,5 +140,6 @@
 }
 
 .menu-wrap .menu > div > div > ul > li > a:hover {
-  color: var(--secondary-color)
+  color: var(--secondary-color);
+  text-shadow: 0 0 20px var(--secondary-color);
 }
