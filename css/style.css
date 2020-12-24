@@ -76,7 +76,7 @@ a {
   font-size: 5rem;
   font-family: "Bungee Outline", "Raleway", sans-serif;
   opacity: 0;
-  animation: fade-in 5s ease-in-out 1s forwards;
+  animation: fade-in 5s linear 1s forwards;
 }
 
 @keyframes fade-in {
@@ -121,7 +121,7 @@ a {
   font-size: 1.8rem;
   width: 100%;
   opacity: 0;
-  animation: fade-in 3.5s ease-in-out 7s forwards;
+  animation: fade-in 3.5s linear 7s forwards;
 }
 
 .btn {
@@ -134,7 +134,7 @@ a {
   transition: all 0.5s ease-in-out;
   text-decoration: none;
   cursor: pointer;
-  animation: fade-in 2s ease-in-out 10s 1 forwards,
+  animation: fade-in 2s ease-in-out 8s 1 forwards,
     glow 1s ease infinite alternate-reverse;
 }
 
