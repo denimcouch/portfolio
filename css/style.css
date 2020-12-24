@@ -70,6 +70,7 @@ a {
   justify-content: center;
   text-align: center;
   height: 100%;
+  opacity: 1;
 }
 
 #showcase h1 {
