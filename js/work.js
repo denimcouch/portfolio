@@ -70,6 +70,7 @@ const createProjectCard = (project) => {
   desc.className = 'text-secondary'
   repoLink.href = project.repoLink;
   repoLink.target = '_blank'
+  repoLink.innerText = 'Check out the repo here! '
   desc.innerText = project.description;
   projectTitle.innerText = project.name;
 
