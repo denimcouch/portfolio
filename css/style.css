@@ -420,11 +420,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
   opacity: 0;
   animation: fade-in 5s ease-in-out 1s forwards;
-  height: 100vh;
 }
 
 .form-container {
@@ -577,6 +576,10 @@ a {
   .player {
     width: calc(100vw - 20px);
     height: 200px;
+  }
+
+  #contact-form {
+    
   }
 
   .form-container {
